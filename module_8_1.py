@@ -4,6 +4,9 @@ def add_everything_up(a, b):
         result = a + b
     except TypeError:
         return f'{a}{b}'
+    else:
+        print(result)
+
 
 print(add_everything_up(123.456, 'строка'))
 print(add_everything_up('яблоко', 4215))
